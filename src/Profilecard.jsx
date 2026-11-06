@@ -58,22 +58,22 @@ function ProfileCard({username, age, location, bio, hobbies, occupation, image})
     )
 }
 
-// ProfileCard.propTypes = {
-//       username : PropTypes.string.isRequired,
-//       age : PropTypes.number.isRequired,
-//       location : PropTypes.string.isRequired,
-//       bio : PropTypes.string,
-//       hobbies : PropTypes.string,
-//       occupation : PropTypes.string.isRequired
-//     }
+ProfileCard.propTypes = {
+      username : PropTypes.string.isRequired,
+      age : PropTypes.number.isRequired,
+      location : PropTypes.string.isRequired,
+      bio : PropTypes.string,
+      hobbies : PropTypes.string,
+      occupation : PropTypes.string.isRequired
+    }
     
-//     ProfileCard.defaultProps = {
-//       username : "Enter Username",
-//       age : "Enter a Number here, that is your age",
-//       occupation : "This area is for what you do for a living",
-//       location : "Cambodia",
-//       bio : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos atque enim similique!",
-//       hobbies : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos atque enim similique! olor sit amet consectetur"
-//     }
+    ProfileCard.defaultProps = {
+      username : "Enter Username",
+      age : "Enter a Number here, that is your age",
+      occupation : "This area is for what you do for a living",
+      location : "Cambodia",
+      bio : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos atque enim similique!",
+      hobbies : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos atque enim similique! olor sit amet consectetur"
+    }
 
 export default ProfileCard
